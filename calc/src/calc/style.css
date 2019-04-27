@@ -1,0 +1,47 @@
+.digit{
+	-fx-font-size: 15px;
+	-fx-font-family: "Arial";
+	-fx-text-fill: black;
+	-fx-background-color: lightskyblue;
+}
+.digit:hover{
+	-fx-font-weight: bold;
+}
+.digit:pressed{
+	-fx-text-fill: white;
+	-fx-background-color: #fab387;
+}
+.backgroud{
+	-fx-background-color: linear-gradient(to bottom, #ff8008, #ffc837);
+}
+.backgroundDisplay{
+	-fx-background-color: linear-gradient(to top, #16222a, #3a6073);
+}
+
+.clear{
+	-fx-font-size: 15px;
+	-fx-font-family: "Arial";
+	-fx-text-fill: black;
+	-fx-background-color: red;
+}
+.clear:hover{
+	-fx-font-weight: bold;
+}
+.clear:pressed{
+	-fx-text-fill: white;
+	-fx-background-color: black;
+}
+
+.operator{
+	-fx-font-size: 15px;
+	-fx-font-family: "Arial";
+	-fx-text-fill: black;
+	-fx-background-color:  #008000;
+}
+.operator:hover{
+	-fx-font-weight: bold;
+}
+.operator:pressed{
+	-fx-text-fill: white;
+	-fx-background-color: 800080;
+}
